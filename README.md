@@ -1,6 +1,6 @@
 # ctu-quantum-computing-course
 
-![example image](ctu.png)
+<img src="ctu.png" alt="alt text" width="200" align="right">
 
 This repository contains the code examples and exercises for my lectures on quantum computing at the Czech Technical University in Prague. 
 The course information is here: https://intranet.fel.cvut.cz/cz/education/bk/predmety/74/72/p7472006
