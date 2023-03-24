@@ -1,3 +1,4 @@
+# An implementation of the quantum random walk using only numpy.
 
 import numpy as np
 import matplotlib.pyplot as plt
