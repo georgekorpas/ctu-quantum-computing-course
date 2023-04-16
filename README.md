@@ -11,4 +11,4 @@ The code is written in Python/Julia and covers various topics such as quantum ra
 
 01. File [01_quantum_random_walk.py ](01_quantum_random_walk.py ) is an implementation of the quantum random walk on the line using only numpy.
 02. File [02_classical_random_walk_probabilities.ipynb](02_classical_random_walk_probabilities.ipynb) shows how the probability to find a classical walker at a fixed vertex converges to 1 with O(N) iterations where N is the number of vertices (of a complete, symmetric graph).
-![](figures/random_walk_complete.pdf)
+![Convergence of CRW](figures/random_walk_complete.pdf)
