@@ -51,6 +51,24 @@ function main()
         pos_state = quantum_walk(steps, size)
         plot_pdf(pos_state, steps, color)
     end
+                                
+ #function main(). #### --->>> creates a gif
+    #walks = [(i, RGB(0.0, 0.0, i/200)) for i in 1:200] # create a range of steps with varying colors
+    #size = 199
+
+    #anim = @animate for (steps, color) in walks
+        #p = plot(grid=false, xlims=(-100, 100), ylims=(0, 0.15), legend=:bottomright)
+        #pos_state = quantum_walk(steps, size)
+        #plot_pdf(pos_state, steps, color)
+        #title!("Quantum Walk, Steps: $steps")
+        #p
+    #end
+
+    gif(anim, "quantum_walk.gif", fps = 10) # save the animated plot as a gif file
+end
+
+main() 
+                                
 
     #title!("put something here")
     display(p)
