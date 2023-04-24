@@ -8,7 +8,7 @@ function coin_operator(pos_state)
     return pos_state * C
 end
 
-# Other coin operator to make it interesting 
+# Other coin operator to make it interesting (not used in notes) 
 #function other_operator(pos_state)
     #C = [1/sqrt(2) 1/sqrt(2);
          #1/sqrt(2) -1/sqrt(2)]
